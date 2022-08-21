@@ -1,0 +1,56 @@
+/* Set the background color of body to tan */
+body {
+    background-color: tan;
+}
+
+/* list-style: none; */
+ol,
+ul {
+    list-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* blockquote, q; */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+
+    @font-face {
+        font-family: 'Material Icons Outlined';
+        font-style: normal;
+        font-weight: 400;
+        src: url(https://example.com/MaterialIcons-Regular.eot);
+        /* For IE6-8 */
+        src:
+            local('Material Icons'),
+            local('MaterialIcons-Regular'),
+            url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+            url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+            url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    body {
+        background-color: olive;
+    }
+}
