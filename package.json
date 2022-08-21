@@ -1,8 +1,15 @@
 {
-  "name": "style-compressor",
+  "name": "vscode-style-compressor",
   "displayName": "style-compressor",
-  "description": "Minify CSS, SCSS",
+  "publisher": "edp1096",
+  "description": "Minify CSS",
   "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/edp1096/vscode-style-compressor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edp1096/vscode-style-compressor"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },

@@ -21,7 +21,7 @@ Forked from [vscode-scss-format](https://github.com/xxxxst/vscode-scss-format)
 
 
 ## demo
-![](./doc/preview.gif)
+![demo](./doc/preview.gif)
 
 
 ## Shortcut key
